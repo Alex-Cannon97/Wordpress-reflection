@@ -126,7 +126,6 @@ p.header-subtitle{
 
 .about-content a:hover{
     color: #03a9f4;
-    font-size: 20px;
 }
 
 .breaker{
@@ -185,7 +184,7 @@ form{
     padding: 10px;
     border-radius: 5px;
     background-color: #c1bfbf;
-    margin-top: 50px;
+    margin-top: 27px;
 }
 
 form button{
@@ -305,6 +304,10 @@ label{
 [class="row"]{
     background-color: #3e3e3e;
     padding: 20px;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 10px;
 }
 
 .blog #block-2{
@@ -313,8 +316,19 @@ label{
     margin-top: 11px;
 }
 
+#block-2{
+    height: 122px;
+    padding-top: 0px;
+    margin-top: 11px;
+}
+
 .blog form{
     margin-top: 34px;
+}
+
+.tags-list a{
+    font-family: sans-serif;
+    font-weight: 600;
 }
 
 #mainmenu_container{
